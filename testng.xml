@@ -1,0 +1,16 @@
+
+
+<suite name="ShopBot Suite">
+
+    <test name="All Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.ProductTest"/>
+            <class name="tests.CartTest"/>
+            <class name="tests.CheckoutTest"/>
+            <class name="tests.LogoutTest"/>
+            <class name="tests.ProblemUserTest"/>
+        </classes>
+    </test>
+
+</suite>
