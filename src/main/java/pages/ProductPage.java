@@ -26,6 +26,7 @@ public class ProductPage extends BasePage {
     private By menuBtn = By.id("react-burger-menu-btn");
     private By logoutLink = By.id("logout_sidebar_link");
     private By secondItemAdd = By.id("add-to-cart-sauce-labs-bike-light");
+    
 
     public void addSecondProduct() {
         wait.until(ExpectedConditions.elementToBeClickable(secondItemAdd)).click();

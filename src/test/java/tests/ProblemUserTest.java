@@ -23,6 +23,7 @@ public class ProblemUserTest extends BaseTest {
 
         // 🔥 Attempt add product
         product.addFirstProduct();
+        
 
         // 🔥 Verify still functioning (UI buggy but works)
         Assert.assertTrue(driver.getPageSource().contains("inventory"));

@@ -18,7 +18,7 @@ public class LoginPage extends BasePage {
     private By loginBtn = By.id("login-button");
     private By errorMsg = By.cssSelector("h3[data-test='error']");
 
-    // Actions
+  
     public void enterUsername(String user) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(username)).sendKeys(user);
     }

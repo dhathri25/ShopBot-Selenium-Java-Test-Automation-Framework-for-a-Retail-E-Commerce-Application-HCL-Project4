@@ -18,6 +18,7 @@ public class CheckoutPage extends BasePage {
     private By lastName = By.id("last-name");
     private By postalCode = By.id("postal-code");
     private By continueBtn = By.id("continue");
+    
 
     private By finishBtn = By.id("finish");
     private By confirmationMsg = By.className("complete-header");

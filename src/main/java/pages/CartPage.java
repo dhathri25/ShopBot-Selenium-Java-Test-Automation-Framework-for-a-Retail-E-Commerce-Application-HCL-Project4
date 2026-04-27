@@ -19,6 +19,7 @@ public class CartPage extends BasePage {
     private By cartIcon = By.className("shopping_cart_link");
     private By removeBtn = By.xpath("//button[contains(text(),'Remove')]");
     private By cartItems = By.className("cart_item");
+    
 
     // Add first item
     public void addFirstItem() {

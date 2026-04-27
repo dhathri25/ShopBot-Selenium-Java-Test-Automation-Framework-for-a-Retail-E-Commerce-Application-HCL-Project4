@@ -25,6 +25,7 @@ public class ProductTest extends BaseTest {
         product.sortBy("az");
         String firstName = product.getFirstProductName();
         Assert.assertNotNull(firstName);
+        
 
         // Sort Low to High
         product.sortBy("lohi");

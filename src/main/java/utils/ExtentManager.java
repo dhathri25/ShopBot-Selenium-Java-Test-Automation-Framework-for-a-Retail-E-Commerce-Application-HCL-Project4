@@ -14,6 +14,7 @@ public class ExtentManager {
             extent = new ExtentReports();
             extent.attachReporter(reporter);
         }
+        
 
         return extent;
     }

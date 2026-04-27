@@ -20,6 +20,7 @@ import utils.ExtentManager;
 public class TestListener implements ITestListener {
 
     ExtentReports extent = ExtentManager.getReport();
+    
     ExtentTest test;
 
     @Override

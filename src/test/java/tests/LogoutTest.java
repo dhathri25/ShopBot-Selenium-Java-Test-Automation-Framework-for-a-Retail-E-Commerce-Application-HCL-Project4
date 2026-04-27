@@ -20,6 +20,7 @@ public class LogoutTest extends BaseTest {
         product.openMenu();
         product.clickLogout();
 
+        
         Assert.assertTrue(driver.getCurrentUrl().contains("saucedemo"));
     }
 }

@@ -13,6 +13,7 @@ public class ConfigReader {
             prop = new Properties();
             prop.load(fis);
         } catch (Exception e) {
+        	
             e.printStackTrace();
         }
     }

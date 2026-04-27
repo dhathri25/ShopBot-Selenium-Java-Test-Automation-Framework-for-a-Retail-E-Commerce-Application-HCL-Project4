@@ -21,6 +21,7 @@ public class DriverFactory {
         String browser = ConfigReader.getBrowser();
 
         if (browser.equalsIgnoreCase("chrome")) {
+        	
 
             WebDriverManager.chromedriver().setup();
 

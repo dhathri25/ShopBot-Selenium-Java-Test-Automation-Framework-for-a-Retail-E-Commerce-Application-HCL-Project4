@@ -13,6 +13,7 @@ public class CheckoutTest extends BaseTest {
     @Test
     public void testCheckoutFlow() {
 
+    	
         LoginPage login = new LoginPage(driver);
         login.enterUsername("standard_user");
         login.enterPassword("secret_sauce");

@@ -11,6 +11,7 @@ public class CartTest extends BaseTest {
 
     @Test
     public void testCartFunctionality() {
+    	
 
         LoginPage login = new LoginPage(driver);
         login.enterUsername("standard_user");
